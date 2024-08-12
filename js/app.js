@@ -89,8 +89,10 @@ class LicenseGenerator {
     }
 
     generateLicenseNumber(state, firstName, lastName) {
-        const randomNumber = Math.floor(Math.random() * 1000000).toString().padStart(6, '0');
-
+        const initials = (firstName[0] + lastName[0]).toUpperCase();
+        const randomDigits = Math.floor(Math.random() * 1000000).toString().padStart(6, '0');
+        return `${state}-${initials}-${randomDigits}`;
+    }
         switch (state) {
             case 'AL': return `AL${lastName.slice(0, 3)}${dob.slice(2, 4)}${randomNumber}`;
             case 'AK': return `AK${lastName.slice(0, 5)}${dob.slice(4, 8)}`;
