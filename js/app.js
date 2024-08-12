@@ -95,7 +95,7 @@ class LicenseGenerator {
     }
         switch (state) {
             case 'AL': return `AL${lastName.slice(0, 3)}${dob.slice(2, 4)}${randomNumber}`;
-            case 'AK': return `AK${lastName.slice(0, 5)}${dob.slice(4, 8)}`;
+            case 'AK': return `AK${lastName.slice(0, 5)}${dob.slice(4, 8)}${randomNumber}`;
             case 'AZ': return `AZ${lastName.slice(0, 1)}${dob.slice(2, 4)}${randomNumber}`;
             case 'AR': return `AR${lastName.slice(0, 4)}${dob.slice(0, 2)}${randomNumber}`;
             case 'CA': return `CA${lastName.slice(0, 5)}${dob.slice(2, 4)}${randomNumber}`;
