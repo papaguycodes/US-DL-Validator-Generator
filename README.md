@@ -15,7 +15,7 @@ This web application allows users to generate and validate U.S. driver's license
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/PaPaGuyCodes/US-DL-Validator-Generator.git
+    git clone https://github.com/papaguycodes/US-DL-Validator-Generator.git
     ```
 
 2. **Navigate to the Project Directory**:
@@ -41,4 +41,4 @@ This web application allows users to generate and validate U.S. driver's license
 
 ## Author
 
-[PaPaGuyCodes](https://github.com/PaPaGuyCodes)
+[PaPaGuyCodes](https://github.com/papaguycodes)
